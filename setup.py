@@ -1,9 +1,9 @@
-
+from setuptools import find_packages
 from distutils.core import setup
 
 setup(
     name = 'loop_listen',         # How you named your package folder (MyLib)
-    packages = ['loop_listen'],   # Chose the same as "name"
+    # packages = ['loop_listen'],   # Chose the same as "name"
     version = '0.1',      # Start with a small number and increase it with every change you make
     license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description = 'Create a Audio Handle to keep listening your microphone and saving in wav type files',   # Give a short description about your library
@@ -13,6 +13,11 @@ setup(
     download_url = 'https://github.com/netoolii/loop-listen/archive/0.1.tar.gz',    # I explain this later on
     keywords = ['Audio Loop', 'Listen', 'Open Mic', 'Mic Audio Loop', 'Audio Handle', 'pyaudio', 'wav file', 'Loop Mic'],   # Keywords that define your package best
     install_requires=[            # I get to this in a second
+            'numpy',
+            'pyaudio',
+        ],
+    packages=find_packages(),
+    setup_requires=[            # I get to this in a second
             'numpy',
             'pyaudio',
         ],
