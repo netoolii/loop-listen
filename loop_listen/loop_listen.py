@@ -35,11 +35,11 @@ class Loop_listen(object):
                 os.mkdir(self.pathname)
         path = os.path.join(self.pathname, 'output')
         audio= os.path.join(path, 'audio')
-        img = os.path.join(path, 'img')
+        # img = os.path.join(path, 'img')
         if(not os.path.isdir(path)):
             os.mkdir(path)
             os.mkdir(audio)
-            os.mkdir(img)
+            # os.mkdir(img)
 
         self.pathname=path
 
