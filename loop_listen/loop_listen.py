@@ -109,42 +109,6 @@ class Loop_listen(object):
         self.stream.close()
         self.p.terminate()
 
-######Checking time p/recording!!!
-
-
-# log_file = 'log_tempo_optimizacao_numpy.log'
-# with open(log_file, 'w+') as f:
-#     f.write("numero_gravacoes, tempo_real")
-#     f.write("\n")
-# for n in range(0, 11, 5):
-#     nqtd = 1 if n==0 else n 
-#     for x in range(5):
-#         start = time()
-#         i=1
-#         print(start)
-#         try:
-#             while(True):
-#                 audio = AudioHandler(filename=str(i), threshold=False)
-#                 audio.listen()
-#                 print(i)
-#                 if(i==nqtd): break
-#                 i+=1
-#         except KeyboardInterrupt:
-#             print('interrupted!')
-#             break
-#         end = time()
-#         print("numero de gravacoes: ", i)
-#         print("tempo real passado: ", end-start)
-
-#         with open(log_file, 'a+') as f:
-#             f.write(str(i) +',')
-#             f.write(str(end-start)+'\n')
-# print('Finalizado com sucesso')
-
-
-
-
-
 # i=1
 # try:
 #     while(True):
