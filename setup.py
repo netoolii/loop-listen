@@ -2,8 +2,8 @@
 from distutils.core import setup
 
 setup(
-    name = 'loop-listen',         # How you named your package folder (MyLib)
-    packages = ['loop-listen'],   # Chose the same as "name"
+    name = 'loop_listen',         # How you named your package folder (MyLib)
+    packages = ['loop_listen'],   # Chose the same as "name"
     version = '0.1',      # Start with a small number and increase it with every change you make
     license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description = 'Create a Audio Handle to keep listening your microphone and saving in wav type files',   # Give a short description about your library
