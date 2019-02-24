@@ -10,7 +10,7 @@ setup(
     author = 'Wilson Neto',                   # Type in your name
     author_email = 'netow@myself.com',      # Type in your E-Mail
     url = 'https://github.com/netoolii/loop-listen',   # Provide either the link to your github or to your website
-    download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+    download_url = 'https://github.com/netoolii/loop-listen/archive/0.1.tar.gz',    # I explain this later on
     keywords = ['Audio Loop', 'Listen', 'Open Mic', 'Mic Audio Loop', 'Audio Handle', 'pyaudio', 'wav file', 'Loop Mic'],   # Keywords that define your package best
     install_requires=[            # I get to this in a second
             'numpy',
